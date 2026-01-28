@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risal Muhammad Rohman - Portfolio</title>
+    <link rel="icon" href="https://i.ibb.co.com/jZwr38tq/photo-2026-01-29-02-25-28.jpg" type="image/jpeg">
+
+    <!-- Font Awesome untuk icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loader"></div>
+            <p>Memuat Portfolio...</p>
+            <p class="loader-subtext">"Expert in persuasion with sharp arguments"</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-terminal"></i>
+                <span>RisalMR</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">
+                        <i class="fas fa-trophy"></i>
+                        <span>Achievements</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Education</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#donate" class="nav-link donate-btn">
+                        <i class="fas fa-donate"></i>
+                        <span>Donate</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="profile-image-container">
+                    <img src="https://i.ibb.co.com/jZwr38tq/photo-2026-01-29-02-25-28.jpg" alt="Risal Muhammad Rohman" class="profile-img">
+                    <div class="profile-status">
+                        <i class="fas fa-circle online-dot"></i>
+                        <span>Available for Hire</span>
+                    </div>
+                </div>
+
+                <h1 class="hero-title">Risal Muhammad Rohman</h1>
+                <p class="hero-subtitle">
+                    <i class="fas fa-star"></i>
+                    Node.js Developer & Cybersecurity Specialist
+                    <i class="fas fa-star"></i>
+                </p>
+
+                <p class="hero-description">
+                    Dengan 4 tahun pengalaman Node.js, saya mengembangkan API dan sistem cybersecurity tingkat lanjut. 
+                    Spesialisasi dalam DDoS protection dan botnet development.
+                </p>
+
+                <div class="hero-badges">
+                    <span class="badge"><i class="fab fa-node-js"></i> Node.js Expert</span>
+                    <span class="badge"><i class="fas fa-shield-alt"></i> Cybersecurity</span>
+                    <span class="badge"><i class="fas fa-server"></i> 500+ Servers</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Hire Me
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <i class="fas fa-user"></i> About Me
+                    </a>
+                    <a href="#achievements" class="btn btn-outline">
+                        <i class="fas fa-trophy"></i> Achievements
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-stats" data-aos="fade-left">
+                <div class="stat-card">
+                    <i class="fas fa-bolt stat-icon"></i>
+                    <h3 class="stat-number">4M+</h3>
+                    <p class="stat-text">Requests/Second (Layer 7)</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-network-wired stat-icon"></i>
+                    <h3 class="stat-number">700 Gbps</h3>
+                    <p class="stat-text">Packet Capacity (Layer 4)</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-calendar-alt stat-icon"></i>
+                    <h3 class="stat-number">4 Years</h3>
+                    <p class="stat-text">Node.js Experience</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-code stat-icon"></i>
+                    <h3 class="stat-number">500+</h3>
+                    <p class="stat-text">Botnet Servers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-user section-icon"></i>
+                About Me
+            </h2>
+
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-right">
+                    <div class="about-card-header">
+                        <i class="fas fa-comment-dots"></i>
+                        <h3>Personality</h3>
+                    </div>
+                    <div class="about-card-body">
+                        <p>Saya adalah seseorang dengan kemampuan <strong>persuasi yang expert</strong> dan penyusun argumen yang tajam. Mampu berbicara di depan publik dengan teknik persuasi tingkat tinggi, bahkan dengan pendekatan filosofi bahasa Tiongkok kuno namun tetap relevan dengan konteks modern.</p>
+                        <p>Satu-satunya murid dengan kemampuan public speaking terbaik di sekolah, dan pemegang <strong>sertifikat public speaking</strong> tingkat sekolah.</p>
+                    </div>
+                </div>
+
+                <div class="about-card" data-aos="fade-up">
+                    <div class="about-card-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Current Status</h3>
+                    </div>
+                    <div class="about-card-body">
+                        <ul class="status-list">
+                            <li>
+                                <i class="fas fa-school"></i>
+                                <span><strong>Sekolah:</strong> SMKN 1 Nawangan, Pacitan (Kelas 10)</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-code"></i>
+                                <span><strong>Pekerjaan:</strong> Freelance Developer & Cybersecurity</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-money-bill-wave"></i>
+                                <span><strong>Income:</strong> Cukup besar dari penjualan API DDoS</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-car"></i>
+                                <span><strong>Jurusan:</strong> Teknik Kendaraan Ringan (TKR) - "Sedikit menyimpang dari passion"</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="about-card" data-aos="fade-left">
+                    <div class="about-card-header">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Personal Life</h3>
+                    </div>
+                    <div class="about-card-body">
+                        <div class="personal-item">
+                            <i class="fas fa-fish"></i>
+                            <div>
+                                <h4>Roblox FishIt</h4>
+                                <p>Menggunakan script Lynx untuk memancing cepat. Script ini gratis dan efektif!</p>
+                            </div>
+                        </div>
+                        <div class="personal-item">
+                            <i class="fas fa-car-side"></i>
+                            <div>
+                                <h4>Impian</h4>
+                                <p>Ingin memiliki Porsche. Donasi diterima melalui Trakteer!</p>
+                            </div>
+                        </div>
+                        <div class="personal-item">
+                            <i class="fas fa-hands-helping"></i>
+                            <div>
+                                <h4>Untuk Radhy</h4>
+                                <p>Radhy pernah jadi teman saya. Jika di masa mendatang ia kesulitan, saya bersedia membantunya.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certificate-container" data-aos="zoom-in">
+                <div class="certificate-header">
+                    <i class="fas fa-award"></i>
+                    <h3>Sertifikat Public Speaking</h3>
+                </div>
+                <div class="certificate-image">
+                    <img src="https://i.ibb.co.com/DPMvPtkh/photo-2026-01-29-02-25-19.jpg" alt="Sertifikat Public Speaking">
+                    <div class="certificate-overlay">
+                        <p>Tingkat Sekolah - Juara Public Speaking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-code section-icon"></i>
+                Technical Skills
+            </h2>
+
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-right">
+                    <div class="category-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersecurity & Hacking</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>DDoS Attack</span>
+                                <span>Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Botnet Development</span>
+                                <span>Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Layer 7 Attacks</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Layer 4 Attacks</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Programming & Databases</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Node.js</span>
+                                <span>4 Years Experience</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL Databases</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>NoSQL Databases</span>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>API Development</span>
+                                <span>Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-left">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Web Servers & Tools</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Nginx</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Web Servers (Linux)</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Lynx Script (Roblox)</span>
+                                <span>Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Delta Executor</span>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="section achievements-section" id="achievements">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-trophy section-icon"></i>
+                Major Achievements
+            </h2>
+
+            <div class="achievements-timeline" data-aos="fade-up">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - Sekarang</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-server timeline-icon"></i>
+                        <h3>Botnet dengan 500 Server</h3>
+                        <p>Berhasil menghubungkan 500 server untuk membentuk botnet yang powerful. Pencapaian luar biasa untuk siswa SMK.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-bolt timeline-icon"></i>
+                        <h3>4 Juta Request/Detik</h3>
+                        <p>Mencapai kemampuan Layer 7 attack dengan 4 juta request per detik. Sistem API DDoS yang dikembangkan laku di pasaran.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2022</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-network-wired timeline-icon"></i>
+                        <h3>700 Gbps Packet</h3>
+                        <p>Mencapai kemampuan Layer 4 attack dengan 700 Gbps packet capacity. Sistem mampu menangani traffic sangat tinggi.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - Sekarang</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-code timeline-icon"></i>
+                        <h3>API DDoS Laku di Pasaran</h3>
+                        <p>Mengembangkan API DDoS yang menghasilkan income cukup besar. Dijual sebagai produk cybersecurity setelah pulang sekolah.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <i class="fas fa-microphone timeline-icon"></i>
+                        <h3>Sertifikat Public Speaking</h3>
+                        <p>Memperoleh sertifikat public speaking tingkat sekolah. Satu-satunya murid dengan kemampuan persuasi expert.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote-box" data-aos="zoom-in">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p class="quote-text">"Di tingkat anak SMK, mencapai 500 server botnet dan 4 juta request/detik bukanlah hal biasa. Ini membuktikan bahwa passion dan dedikasi bisa mengalahkan batasan usia dan pendidikan formal."</p>
+                <i class="fas fa-quote-right quote-icon"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-graduation-cap section-icon"></i>
+                Education Background
+            </h2>
+
+            <div class="education-cards">
+                <div class="education-card" data-aos="flip-left">
+                    <div class="edu-card-header">
+                        <div class="edu-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h3>SMPN 9 Pekanbaru</h3>
+                        <span class="edu-year">2023</span>
+                    </div>
+                    <div class="edu-card-body">
+                        <p><i class="fas fa-user-graduate"></i> Kelas 7</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Pekanbaru, Riau</p>
+                        <div class="edu-tag">
+                            <i class="fas fa-code"></i> Mulai belajar programming
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card" data-aos="flip-right">
+                    <div class="edu-card-header">
+                        <div class="edu-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3>SMKN 1 Nawangan</h3>
+                        <span class="edu-year">2023 - Sekarang</span>
+                    </div>
+                    <div class="edu-card-body">
+                        <p><i class="fas fa-user-graduate"></i> Kelas 10 - Teknik Kendaraan Ringan (TKR)</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Pacitan, Jawa Timur</p>
+                        <div class="edu-tag">
+                            <i class="fas fa-exclamation-triangle"></i> "Sedikit menyimpang dari passion"
+                        </div>
+                        <div class="edu-tag">
+                            <i class="fas fa-briefcase"></i> Kerja lapangan mulai kelas 3
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card" data-aos="flip-up">
+                    <div class="edu-card-header">
+                        <div class="edu-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Self-Taught Programmer</h3>
+                        <span class="edu-year">2020 - Sekarang</span>
+                    </div>
+                    <div class="edu-card-body">
+                        <p><i class="fas fa-code"></i> Node.js (4 tahun pengalaman)</p>
+                        <p><i class="fas fa-shield-alt"></i> Cybersecurity Specialist</p>
+                        <p><i class="fas fa-server"></i> Web Server Management</p>
+                        <div class="edu-tag highlight">
+                            <i class="fas fa-star"></i> API Development Expert
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-envelope section-icon"></i>
+                Contact & Hire Me
+            </h2>
+
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Get In Touch</h3>
+                    <p>Saya terbuka untuk pekerjaan freelance, hire, atau kolaborasi proyek cybersecurity dan pengembangan API.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:wanghaochy@proton.me">wanghaochy@proton.me</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/628133140898" target="_blank">+62 813-3140-898</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-school"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>SMKN 1 Nawangan, Pacitan</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Expertise</h4>
+                                <p>Node.js, Cybersecurity, API Development</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://wa.me/628133140898" class="social-link whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:wanghaochy@proton.me" class="social-link email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/malasahjago-lgtm" class="social-link github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="donate-box" id="donate" data-aos="fade-left">
+                    <div class="donate-header">
+                        <i class="fas fa-donate"></i>
+                        <h3>Support My Dream</h3>
+                    </div>
+                    <div class="donate-body">
+                        <p>Impian saya adalah memiliki Porsche. Jika Anda ingin mendukung perjalanan saya, donasi sangat diterima!</p>
+                        <div class="donate-amount">
+                            <i class="fas fa-car-side"></i>
+                            <span>Goal: Porsche</span>
+                        </div>
+                        <a href="https://trakteer.id/haochyy" class="btn btn-donate" target="_blank">
+                            <i class="fas fa-heart"></i> Donate via Trakteer
+                        </a>
+                        <p class="donate-note"><small>Setiap donasi sangat berarti untuk masa depan saya</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-terminal"></i>
+                    <span>RisalMR</span>
+                </div>
+
+                <p class="footer-quote">"Expert in persuasion with sharp arguments - Building the future with code and cybersecurity"</p>
+
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Risal Muhammad Rohman. All rights reserved.</p>
+                    <p>Portfolio Server running on port 2026</p>
+                    <p class="footer-note">"Thanks to Lynx for the FishIt script. Delta Executor user."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS (Animate On Scroll)
+        AOS.init({
+            duration: 800,
+            once: false,
+            offset: 100
+        });
+
+        // DOM Ready
+        document.addEventListener('DOMContentLoaded', function() {
+            // Loading Screen
+            const loadingScreen = document.getElementById('loadingScreen');
+            setTimeout(() => {
+                loadingScreen.style.opacity = '0';
+                setTimeout(() => {
+                    loadingScreen.style.display = 'none';
+                }, 500);
+            }, 1500);
+
+            // Mobile Navigation Toggle
+            const navToggle = document.getElementById('navToggle');
+            const navMenu = document.getElementById('navMenu');
+
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                navToggle.querySelector('i').classList.toggle('fa-bars');
+                navToggle.querySelector('i').classList.toggle('fa-times');
+            });
+
+            // Close mobile menu when clicking a link
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('active');
+                    navToggle.querySelector('i').classList.add('fa-bars');
+                    navToggle.querySelector('i').classList.remove('fa-times');
+                });
+            });
+
+            // Back to Top Button
+            const backToTop = document.getElementById('backToTop');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    backToTop.classList.add('visible');
+                } else {
+                    backToTop.classList.remove('visible');
+                }
+            });
+
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Active Navigation Link
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+
+                    if (scrollY >= (sectionTop - 200)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Console greeting
+            console.log('%c👋 Hello! Welcome to Risal Muhammad Rohman Portfolio', 'color: #4a9eff; font-size: 16px; font-weight: bold;');
+            console.log('%cNode.js Expert | Cybersecurity Specialist | API Developer', 'color: #6ab04c; font-size: 14px;');
+            console.log('%cServer running on port 2026', 'color: #f39c12; font-size: 12px;');
+        });
+    </script>
+</body>
+</html>
